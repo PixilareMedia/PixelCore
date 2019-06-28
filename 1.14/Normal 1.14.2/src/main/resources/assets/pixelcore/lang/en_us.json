@@ -35,10 +35,14 @@
 	"item.pixelcore.newminecraftstuff_money_100": "New Minecraft Stuff Money $100",
 	"item.pixelcore.newminecraftstuff_money_500": "New Minecraft Stuff Money $500",
 	"item.pixelcore.newminecraftstuff_money_1000": "New Minecraft Stuff Money $1000",
-	//Config Stuff
-	"cet.config": "Command Exclusives Tab",
-	"pmt.config": "Pixel Money Tab",
-	"pm.config": "Pixel Money",
-	"tcm.config": "Thrive Craft Money",
-	"nmsm.config": "New Minecraft Stuff Money"
+	//Decoration Money
+	"item.pixelcore.decoration_money_1": "Decoration Money $1",
+	"item.pixelcore.decoration_money_2": "Decoration Money $2",
+	"item.pixelcore.decoration_money_5": "Decoration Money $5",
+	"item.pixelcore.decoration_money_10": "Decoration Money $10",
+	"item.pixelcore.decoration_money_20": "Decoration Money $20",
+	"item.pixelcore.decoration_money_50": "Decoration Money $50",
+	"item.pixelcore.decoration_money_100": "Decoration Money $100",
+	"item.pixelcore.decoration_money_500": "Decoration Money $500",
+	"item.pixelcore.decoration_money_1000": "Decoration Money $1000"
 }

@@ -36,4 +36,15 @@ public class ItemList
 	public static Item newminecraftstuff_money_100;
 	public static Item newminecraftstuff_money_500;
 	public static Item newminecraftstuff_money_1000;
+
+	//Decoration Money
+	public static Item decoration_money_1;
+	public static Item decoration_money_2;
+	public static Item decoration_money_5;
+	public static Item decoration_money_10;
+	public static Item decoration_money_20;
+	public static Item decoration_money_50;
+	public static Item decoration_money_100;
+	public static Item decoration_money_500;
+	public static Item decoration_money_1000;
 }
