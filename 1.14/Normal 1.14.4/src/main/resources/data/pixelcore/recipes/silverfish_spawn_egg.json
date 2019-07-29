@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shaped",
+    "group": "spawn_eggs",
+   
+    "pattern":
+    [
+        "DDD",
+        "DBD",
+        "DDD"
+    ],
+   
+    "key":
+    {
+        "D":
+        {
+            "item": "minecraft:stone"
+        },
+        "B":
+        {
+        	"item": "pixelcore:base_spawn_egg"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:silverfish_spawn_egg"
+    }
+}

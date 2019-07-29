@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shaped",
+    "group": "spawn_eggs",
+   
+    "pattern":
+    [
+        "DDD",
+        "DBD",
+        "DDD"
+    ],
+   
+    "key":
+    {
+        "D":
+        {
+            "item": "minecraft:dried_kelp"
+        },
+        "B":
+        {
+        	"item": "pixelcore:base_spawn_egg"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:cat_spawn_egg"
+    }
+}

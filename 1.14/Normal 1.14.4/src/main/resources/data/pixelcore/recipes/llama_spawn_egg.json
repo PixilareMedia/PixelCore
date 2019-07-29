@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shaped",
+    "group": "spawn_eggs",
+   
+    "pattern":
+    [
+        "DDD",
+        "DBD",
+        "DDD"
+    ],
+   
+    "key":
+    {
+        "D":
+        {
+            "tag": "minecraft:carpets"
+        },
+        "B":
+        {
+        	"item": "pixelcore:base_spawn_egg"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:llama_spawn_egg"
+    }
+}

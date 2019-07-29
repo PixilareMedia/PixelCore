@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shaped",
+    "group": "spawn_eggs",
+   
+    "pattern":
+    [
+        "DDD",
+        "DBD",
+        "DDD"
+    ],
+   
+    "key":
+    {
+        "D":
+        {
+            "item": "minecraft:totem_of_undying"
+        },
+        "B":
+        {
+        	"item": "minecraft:villager_spawn_egg"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:evoker_spawn_egg"
+    }
+}

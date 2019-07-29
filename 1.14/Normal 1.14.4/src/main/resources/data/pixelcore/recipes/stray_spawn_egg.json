@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shaped",
+    "group": "spawn_eggs",
+   
+    "pattern":
+    [
+        "DDD",
+        "DBD",
+        "DDD"
+    ],
+   
+    "key":
+    {
+        "D":
+        {
+            "item": "minecraft:ice"
+        },
+        "B":
+        {
+        	"item": "minecraft:skeleton_spawn_egg"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:stray_spawn_egg"
+    }
+}

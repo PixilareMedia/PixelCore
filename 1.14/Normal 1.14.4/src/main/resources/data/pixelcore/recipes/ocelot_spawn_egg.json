@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shaped",
+    "group": "spawn_eggs",
+   
+    "pattern":
+    [
+        "DDD",
+        "DBD",
+        "DDD"
+    ],
+   
+    "key":
+    {
+        "D":
+        {
+            "item": "minecraft:cooked_salmon"
+        },
+        "B":
+        {
+        	"item": "pixelcore:base_spawn_egg"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:ocelot_spawn_egg"
+    }
+}

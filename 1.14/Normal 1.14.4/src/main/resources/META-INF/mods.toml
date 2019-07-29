@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+issueTrackerURL="https://github.com/PixilareGames/PixelCore/issues"
+
+[[mods]] #mandatory
+	modId="pixelcore"
+	version="1.0"
+	displayName="Pixel Core"
+	displayURL="https://github.com/PixilareGames/PixelCore"
+	credits="Herobrain_gamer For Coding, GamerGabriel For Textures, TheTrueDuility For Helping"
+	authors="Herobrain_gamer, GamerGabriel, TheTrueDuility"
+	description='''Ian Please Add More Information'''
+
+[[dependencies.pixelcore]]
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[28,)"
+    ordering="NONE"
+    side="BOTH"
+	
+[[dependencies.pixelcore]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"
+	
+[[dependencies.pixelcore]]
+    modId="thrivecraft"
+    mandatory=false
+    versionRange="[1.0]"
+    ordering="NONE"
+    side="BOTH"
+	
+[[dependencies.pixelcore]]
+    modId="newminecraftstuff"
+    mandatory=false
+    versionRange="[1.0]"
+    ordering="NONE"
+    side="BOTH"
+	
+[[dependencies.pixelcore]]
+    modId="decoration"
+    mandatory=false
+    versionRange="[1.0]"
+    ordering="NONE"
+    side="BOTH"
