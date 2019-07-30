@@ -6,9 +6,11 @@ issueTrackerURL="https://github.com/PixilareGames/PixelCore/issues"
 	modId="pixelcore"
 	version="1.0"
 	displayName="Pixel Core"
+	updateJSONURL="https://github.com/PixilareGames/PixelCore/tree/master/1.14/Normal%201.14.4"
 	displayURL="https://github.com/PixilareGames/PixelCore"
-	credits="Herobrain_gamer For Coding, GamerGabriel For Textures, TheTrueDuility For Helping"
-	authors="Herobrain_gamer, GamerGabriel, TheTrueDuility"
+	logoFile="pixelcore.png"
+	credits="Herobrain_gamer For Coding"
+	authors="Herobrain_gamer"
 	description='''Ian Please Add More Information'''
 
 [[dependencies.pixelcore]]

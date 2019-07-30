@@ -36,6 +36,5 @@ public class CommandExclusivesItemGroup extends ItemGroup
 		items.add(new ItemStack(Items.SPAWNER));
 		items.add(new ItemStack(Items.DRAGON_EGG));
 		items.add(new ItemStack(Items.KNOWLEDGE_BOOK));
-		items.add(new ItemStack(Blocks.NETHER_PORTAL));
 	}
 }
