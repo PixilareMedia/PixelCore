@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shaped",
+    "group": "spawn_eggs",
+   
+    "pattern":
+    [
+        "DDD",
+        "DBD",
+        "DDD"
+    ],
+   
+    "key":
+    {
+        "D":
+        {
+            "item": "minecraft:iron_axe"
+        },
+        "B":
+        {
+        	"item": "minecraft:villager_spawn_egg"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:vindicator_spawn_egg"
+    }
+}

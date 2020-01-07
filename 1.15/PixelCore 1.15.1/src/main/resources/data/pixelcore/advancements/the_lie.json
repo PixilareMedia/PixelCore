@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "The Lie"
+        },
+        "description": {
+            "text": "Craft A Cake",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "inv_change": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cake"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "pixelcore:root"
+}

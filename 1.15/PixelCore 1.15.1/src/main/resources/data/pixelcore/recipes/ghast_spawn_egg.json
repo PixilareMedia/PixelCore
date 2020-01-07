@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shaped",
+    "group": "spawn_eggs",
+   
+    "pattern":
+    [
+        "DDD",
+        "DBD",
+        "DDD"
+    ],
+   
+    "key":
+    {
+        "D":
+        {
+            "item": "minecraft:ghast_tear"
+        },
+        "B":
+        {
+        	"item": "pixelcore:base_spawn_egg"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:ghast_spawn_egg"
+    }
+}
