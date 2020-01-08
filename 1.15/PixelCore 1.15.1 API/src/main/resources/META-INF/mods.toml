@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[28,)"
+loaderVersion="[30,)"
 issueTrackerURL="https://github.com/PixilareGames/PixelCore/issues"
 
 [[mods]] #mandatory
@@ -16,13 +16,13 @@ issueTrackerURL="https://github.com/PixilareGames/PixelCore/issues"
 [[dependencies.pixelcore]]
     modId="forge" #mandatory
     mandatory=true #mandatory
-    versionRange="[28,)"
+    versionRange="[30,)"
     ordering="NONE"
     side="BOTH"
 	
 [[dependencies.pixelcore]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.14.4]"
+    versionRange="[1.15.1]"
     ordering="NONE"
     side="BOTH"
