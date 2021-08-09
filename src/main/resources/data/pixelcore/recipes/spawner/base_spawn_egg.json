@@ -1,0 +1,25 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "ESE",
+        "DTD",
+        "ESE"
+    ],
+    "key": {
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "S": {
+        	"item": "minecraft:nether_star"
+        },
+        "D": {
+        	"item": "minecraft:dragon_egg"
+        },
+        "T": {
+        	"item": "minecraft:totem_of_undying"
+        }
+    },
+    "result": {
+        "item": "pixelcore:base_spawn_egg"
+    }
+}

@@ -1,0 +1,4 @@
+scoreboard objectives remove pigfly_riding
+scoreboard objectives remove pigfly_goal
+scoreboard objectives remove pigfly_current
+scoreboard objectives remove pigfly_input

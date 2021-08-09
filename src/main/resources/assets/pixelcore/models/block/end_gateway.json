@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "particle": "minecraft:block/obsidian",
+    "all": "pixelcore:block/end_gateway"
+  }
+}

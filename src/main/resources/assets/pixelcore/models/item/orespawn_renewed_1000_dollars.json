@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures":
+    {
+        "layer0": "pixelcore:item/orespawn_renewed_1000_dollars"
+    }
+}

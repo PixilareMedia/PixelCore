@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+    "group": "decoration_blocks_money",
+    "ingredients": [
+        {
+            "item": "pixelcore:decoration_blocks_2_dollars"
+        },
+        {
+            "item": "pixelcore:decoration_blocks_2_dollars"
+        },
+        {
+            "item": "pixelcore:decoration_blocks_1_dollar"
+        }
+    ],
+    "result": {
+        "item": "pixelcore:decoration_blocks_5_dollars"
+    }
+}

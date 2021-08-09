@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values":
+  [
+    "pixelcore:thrive_craft_1_cent",
+    "pixelcore:thrive_craft_5_cents",
+    "pixelcore:thrive_craft_10_cents",
+    "pixelcore:thrive_craft_25_cents",
+    "pixelcore:thrive_craft_50_cents",
+    "pixelcore:thrive_craft_1_dollar",
+    "pixelcore:thrive_craft_2_dollars",
+    "pixelcore:thrive_craft_5_dollars",
+    "pixelcore:thrive_craft_10_dollars",
+    "pixelcore:thrive_craft_20_dollars",
+    "pixelcore:thrive_craft_25_dollars",
+    "pixelcore:thrive_craft_50_dollars",
+    "pixelcore:thrive_craft_100_dollars",
+    "pixelcore:thrive_craft_500_dollars",
+    "pixelcore:thrive_craft_1000_dollars"
+  ]
+}

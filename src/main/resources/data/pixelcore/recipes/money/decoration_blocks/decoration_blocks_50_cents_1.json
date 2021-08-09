@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shapeless",
+    "group": "decoration_blocks_money",
+    "ingredients": [
+        {
+            "item": "pixelcore:decoration_blocks_10_cents"
+        },
+        {
+            "item": "pixelcore:decoration_blocks_10_cents"
+        },
+        {
+            "item": "pixelcore:decoration_blocks_10_cents"
+        },
+        {
+            "item": "pixelcore:decoration_blocks_10_cents"
+        },
+        {
+            "item": "pixelcore:decoration_blocks_10_cents"
+        }
+    ],
+    "result": {
+        "item": "pixelcore:decoration_blocks_50_cents"
+    }
+}

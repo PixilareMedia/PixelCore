@@ -1,0 +1,33 @@
+{
+    "type": "crafting_shapeless",
+    "group": "new_minecraft_stuff_money",
+    "ingredients": [
+        {
+            "item": "pixelcore:new_minecraft_stuff_25_cents"
+        },
+        {
+            "item": "pixelcore:new_minecraft_stuff_25_cents"
+        },
+        {
+            "item": "pixelcore:new_minecraft_stuff_25_cents"
+        },
+        {
+            "item": "pixelcore:new_minecraft_stuff_25_cents"
+        },
+        {
+            "item": "pixelcore:new_minecraft_stuff_25_cents"
+        },
+        {
+            "item": "pixelcore:new_minecraft_stuff_25_cents"
+        },
+        {
+            "item": "pixelcore:new_minecraft_stuff_25_cents"
+        },
+        {
+            "item": "pixelcore:new_minecraft_stuff_25_cents"
+        }
+    ],
+    "result": {
+        "item": "pixelcore:new_minecraft_stuff_2_dollars"
+    }
+}

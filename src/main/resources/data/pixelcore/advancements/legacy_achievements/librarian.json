@@ -1,0 +1,37 @@
+{
+	"parent": "minecraft:story/enchant_item",
+	"display": {
+        "title": {
+            "translate": "advancements.pixelcore.legacy_achievements.librarian.title"
+        },
+        "description": {
+            "translate": "advancements.pixelcore.legacy_achievements.librarian.description"
+        },
+        "icon": {
+            "item": "minecraft:bookshelf"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bookshelf": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                  {
+                    "items": [
+                      "minecraft:bookshelf"
+                    ]
+                  }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bookshelf"
+        ]
+    ]
+}

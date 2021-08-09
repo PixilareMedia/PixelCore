@@ -1,0 +1,16 @@
+{
+	"parent": "pixelcore:legacy_achievements/technical/when_pigs_fly_ad1",
+	"criteria": {
+        "event1": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "event1"
+        ]
+    ],
+    "rewards": {
+        "function": "pixelcore:advancements/legacy_achievements/clear_technical"
+    }
+}

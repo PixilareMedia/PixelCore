@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures":
+    {
+        "layer0": "pixelcore:item/new_minecraft_stuff_1_dollar"
+    }
+}

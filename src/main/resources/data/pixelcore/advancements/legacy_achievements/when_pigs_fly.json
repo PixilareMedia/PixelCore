@@ -1,0 +1,28 @@
+{
+	"parent": "minecraft:adventure/root",
+	"display": {
+        "title": {
+            "translate": "advancements.pixelcore.legacy_achievements.when_pigs_fly.title"
+        },
+        "description": {
+            "translate": "advancements.pixelcore.legacy_achievements.when_pigs_fly.description"
+        },
+        "icon": {
+            "item": "minecraft:saddle"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "whenpigsfly": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "whenpigsfly"
+        ]
+    ]
+}

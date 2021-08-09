@@ -1,0 +1,33 @@
+{
+    "type": "crafting_shapeless",
+    "group": "thrive_craft_money",
+    "ingredients": [
+        {
+            "item": "pixelcore:thrive_craft_25_cents"
+        },
+        {
+            "item": "pixelcore:thrive_craft_25_cents"
+        },
+        {
+            "item": "pixelcore:thrive_craft_25_cents"
+        },
+        {
+            "item": "pixelcore:thrive_craft_25_cents"
+        },
+        {
+            "item": "pixelcore:thrive_craft_25_cents"
+        },
+        {
+            "item": "pixelcore:thrive_craft_25_cents"
+        },
+        {
+            "item": "pixelcore:thrive_craft_25_cents"
+        },
+        {
+            "item": "pixelcore:thrive_craft_25_cents"
+        }
+    ],
+    "result": {
+        "item": "pixelcore:thrive_craft_2_dollars"
+    }
+}

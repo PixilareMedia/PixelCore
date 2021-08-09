@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "III",
+        "IHI",
+        "III"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_bars"
+        },
+        "H": {
+        	"item": "pixelcore:spawner_heart"
+        }
+    },
+    "result": {
+        "item": "minecraft:spawner"
+    }
+}

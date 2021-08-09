@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "group": "spawn_eggs",
+    "pattern": [
+        "DDD",
+        "DBD",
+        "DDD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:red_mushroom_block"
+        },
+        "B": {
+            "item": "pixelcore:base_spawn_egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:mooshroom_spawn_egg"
+    }
+}

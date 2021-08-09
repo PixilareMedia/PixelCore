@@ -1,0 +1,35 @@
+{
+	"parent": "minecraft:husbandry/balanced_diet",
+	"display": {
+        "title": {
+            "translate": "advancements.pixelcore.legacy_achievements.overpowered.title"
+        },
+        "description": {
+            "translate": "advancements.pixelcore.legacy_achievements.overpowered.description"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "overpowered": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                  "items": [
+                    "minecraft:enchanted_golden_apple"
+                  ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "overpowered"
+        ]
+    ]
+}

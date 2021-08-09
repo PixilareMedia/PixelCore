@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shapeless",
+    "group": "new_minecraft_stuff_money",
+    "ingredients": [
+        {
+            "item": "pixelcore:new_minecraft_stuff_25_dollars"
+        },
+        {
+            "item": "pixelcore:new_minecraft_stuff_25_dollars"
+        },
+        {
+            "item": "pixelcore:new_minecraft_stuff_25_dollars"
+        },
+        {
+            "item": "pixelcore:new_minecraft_stuff_25_dollars"
+        }
+    ],
+    "result": {
+        "item": "pixelcore:new_minecraft_stuff_100_dollars"
+    }
+}

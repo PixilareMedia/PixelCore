@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.pixelcore.random.root.title"
+        },
+        "description": {
+            "translate": "advancements.pixelcore.random.root.description"
+        },
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/cobbled_deepslate.png"
+    },
+    "criteria": {
+        "getdirt": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                  {
+                    "items": [
+                      "minecraft:dirt"
+                    ]
+                  }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "getdirt"
+        ]
+    ]
+}

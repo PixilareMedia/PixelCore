@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pixelcore:block/end_gateway"
+    }
+  }
+}

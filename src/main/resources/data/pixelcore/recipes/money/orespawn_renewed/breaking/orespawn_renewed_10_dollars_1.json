@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "group": "orespawn_renewed_money",
+    "ingredients": [
+        {
+            "item": "pixelcore:orespawn_renewed_20_dollars"
+        }
+    ],
+    "result": {
+        "item": "pixelcore:orespawn_renewed_10_dollars",
+        "count": 2
+    }
+}

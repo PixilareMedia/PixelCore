@@ -1,0 +1,41 @@
+{
+	"parent": "minecraft:story/enchant_item",
+	"display": {
+        "title": {
+            "translate": "advancements.pixelcore.legacy_achievements.overkill.title"
+        },
+        "description": {
+            "translate": "advancements.pixelcore.legacy_achievements.overkill.description"
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "overkill": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "dealt": {
+                        "min": 17
+                    },
+                    "type": {
+                        "bypasses_invulnerability": false,
+                        "is_fire": false,
+                        "is_magic": false,
+                        "is_projectile": false
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "overkill"
+        ]
+    ]
+}

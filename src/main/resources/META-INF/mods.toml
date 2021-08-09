@@ -1,0 +1,56 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="All Rights Reserved."
+issueTrackerURL="https://github.com/PixilareMedia/PixelCore/issues"
+
+[[mods]]
+modId="pixelcore"
+version="${file.jarVersion}"
+displayName="Pixel Core"
+updateJSONURL="https://download.pixilaremedia.com/pixilare-media/pixel-core/update.json"
+displayURL="https://www.pixilaremedia.com/projects/pixel-core/"
+logoFile="logo.png"
+credits="Herobrain_gamer for coding"
+authors="Pixilare Media, Herobrain_gamer"
+description='''
+This mod contains some common code between all of our mods.
+It also contains some random features that did not fit into any of the other mods.
+'''
+
+[[dependencies.pixelcore]]
+    modId="forge"
+    mandatory=true
+    versionRange="[37,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.pixelcore]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.pixelcore]]
+    modId="thrivecraft"
+    mandatory=false
+    versionRange="[1.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.pixelcore]]
+    modId="decorationblocks"
+    mandatory=false
+    versionRange="[1.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.pixelcore]]
+    modId="newminecraftstuff"
+    mandatory=false
+    versionRange="[1.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.pixelcore]]
+    modId="orespawn_renewed"
+    mandatory=false
+    versionRange="[1.0,)"
+    ordering="NONE"
+    side="BOTH"

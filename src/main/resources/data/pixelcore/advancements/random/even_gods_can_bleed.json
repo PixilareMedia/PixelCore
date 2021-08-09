@@ -1,0 +1,42 @@
+{
+	"parent": "pixelcore:random/demigods_can_still_bleed",
+    "display": {
+        "title": {
+            "translate": "advancements.pixelcore.random.even_gods_can_bleed.title"
+        },
+        "description": {
+            "translate": "advancements.pixelcore.random.even_gods_can_bleed.description"
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "killcreativeplayer": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player",
+                    "nbt": "{playerGameType:1}"
+                },
+                "killing_blow": {
+                    "bypasses_armor": true,
+                    "bypasses_invulnerability": true,
+                    "bypasses_magic": true,
+                    "source_entity": {
+                        "type": "minecraft:player"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "killcreativeplayer"
+        ]
+    ]
+}

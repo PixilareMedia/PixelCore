@@ -1,0 +1,2 @@
+advancement revoke @a only pixelcore:legacy_achievements/technical/when_pigs_fly_ad1
+advancement revoke @a only pixelcore:legacy_achievements/technical/clear_technical_ad1

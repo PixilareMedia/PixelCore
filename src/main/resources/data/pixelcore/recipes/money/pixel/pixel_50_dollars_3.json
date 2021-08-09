@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shapeless",
+    "group": "pixel_money",
+    "ingredients": [
+        {
+            "item": "pixelcore:pixel_10_dollars"
+        },
+        {
+            "item": "pixelcore:pixel_10_dollars"
+        },
+        {
+            "item": "pixelcore:pixel_10_dollars"
+        },
+        {
+            "item": "pixelcore:pixel_10_dollars"
+        },
+        {
+            "item": "pixelcore:pixel_10_dollars"
+        }
+    ],
+    "result": {
+        "item": "pixelcore:pixel_50_dollars"
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values":
+  [
+    "#pixelcore:pixel_money",
+    "#pixelcore:thrive_craft_money",
+    "#pixelcore:decoration_blocks_money",
+    "#pixelcore:new_minecraft_stuff_money",
+    "#pixelcore:orespawn_renewed_money"
+  ]
+}

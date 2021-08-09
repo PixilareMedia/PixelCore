@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "group": "spawn_eggs",
+    "pattern": [
+        "DdD",
+        "dBd",
+        "DdD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:leather"
+        },
+        "d": {
+            "item": "minecraft:rabbit_hide"
+        },
+        "B": {
+            "item": "pixelcore:base_spawn_egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:mule_spawn_egg"
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values":
+  [
+    "pixelcore:pixel_1_cent",
+    "pixelcore:pixel_5_cents",
+    "pixelcore:pixel_10_cents",
+    "pixelcore:pixel_25_cents",
+    "pixelcore:pixel_50_cents",
+    "pixelcore:pixel_1_dollar",
+    "pixelcore:pixel_2_dollars",
+    "pixelcore:pixel_5_dollars",
+    "pixelcore:pixel_10_dollars",
+    "pixelcore:pixel_20_dollars",
+    "pixelcore:pixel_25_dollars",
+    "pixelcore:pixel_50_dollars",
+    "pixelcore:pixel_100_dollars",
+    "pixelcore:pixel_500_dollars",
+    "pixelcore:pixel_1000_dollars"
+  ]
+}

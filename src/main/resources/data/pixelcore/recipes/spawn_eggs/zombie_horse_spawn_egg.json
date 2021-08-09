@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "group": "spawn_eggs",
+    "pattern": [
+        "DdD",
+        "dBd",
+        "DdD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "d": {
+            "item": "minecraft:leather"
+        },
+        "B": {
+            "item": "pixelcore:base_spawn_egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:zombie_horse_spawn_egg"
+    }
+}

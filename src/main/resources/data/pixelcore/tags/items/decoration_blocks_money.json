@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values":
+  [
+    "pixelcore:decoration_blocks_1_cent",
+    "pixelcore:decoration_blocks_5_cents",
+    "pixelcore:decoration_blocks_10_cents",
+    "pixelcore:decoration_blocks_25_cents",
+    "pixelcore:decoration_blocks_50_cents",
+    "pixelcore:decoration_blocks_1_dollar",
+    "pixelcore:decoration_blocks_2_dollars",
+    "pixelcore:decoration_blocks_5_dollars",
+    "pixelcore:decoration_blocks_10_dollars",
+    "pixelcore:decoration_blocks_20_dollars",
+    "pixelcore:decoration_blocks_25_dollars",
+    "pixelcore:decoration_blocks_50_dollars",
+    "pixelcore:decoration_blocks_100_dollars",
+    "pixelcore:decoration_blocks_500_dollars",
+    "pixelcore:decoration_blocks_1000_dollars"
+  ]
+}

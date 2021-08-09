@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values":
+  [
+    "pixelcore:new_minecraft_stuff_1_cent",
+    "pixelcore:new_minecraft_stuff_5_cents",
+    "pixelcore:new_minecraft_stuff_10_cents",
+    "pixelcore:new_minecraft_stuff_25_cents",
+    "pixelcore:new_minecraft_stuff_50_cents",
+    "pixelcore:new_minecraft_stuff_1_dollar",
+    "pixelcore:new_minecraft_stuff_2_dollars",
+    "pixelcore:new_minecraft_stuff_5_dollars",
+    "pixelcore:new_minecraft_stuff_10_dollars",
+    "pixelcore:new_minecraft_stuff_20_dollars",
+    "pixelcore:new_minecraft_stuff_25_dollars",
+    "pixelcore:new_minecraft_stuff_50_dollars",
+    "pixelcore:new_minecraft_stuff_100_dollars",
+    "pixelcore:new_minecraft_stuff_500_dollars",
+    "pixelcore:new_minecraft_stuff_1000_dollars"
+  ]
+}

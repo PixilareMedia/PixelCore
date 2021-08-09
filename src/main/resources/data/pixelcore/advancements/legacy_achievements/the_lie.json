@@ -1,0 +1,37 @@
+{
+	"parent": "pixelcore:legacy_achievements/bake_bread",
+	"display": {
+        "title": {
+            "translate": "advancements.pixelcore.legacy_achievements.the_lie.title"
+        },
+        "description": {
+            "translate": "advancements.pixelcore.legacy_achievements.the_lie.description"
+        },
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "thelie": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                  {
+                    "items": [
+                      "minecraft:cake"
+                    ]
+                  }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "thelie"
+        ]
+    ]
+}

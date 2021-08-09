@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "group": "pixel_money",
+    "ingredients": [
+        {
+            "item": "pixelcore:pixel_50_cents"
+        }
+    ],
+    "result": {
+        "item": "pixelcore:pixel_10_cents",
+        "count": 5
+    }
+}

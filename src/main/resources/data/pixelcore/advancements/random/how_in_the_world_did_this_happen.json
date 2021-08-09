@@ -1,0 +1,44 @@
+{
+	"parent": "pixelcore:random/anxiety_trip",
+    "display": {
+        "title": {
+            "translate": "advancements.pixelcore.random.how_in_the_world_did_this_happen.title"
+        },
+        "description": {
+            "translate": "advancements.pixelcore.random.how_in_the_world_did_this_happen.description"
+        },
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "evoker": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "vehicle": {
+                                "type": "minecraft:boat",
+                                "passenger": {
+                                    "type": "minecraft:evoker"
+                                }
+                            }
+                        },
+                        "entity": "this"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "evoker"
+        ]
+    ]
+}

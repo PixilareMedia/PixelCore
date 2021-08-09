@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values":
+  [
+    "pixelcore:orespawn_renewed_1_cent",
+    "pixelcore:orespawn_renewed_5_cents",
+    "pixelcore:orespawn_renewed_10_cents",
+    "pixelcore:orespawn_renewed_25_cents",
+    "pixelcore:orespawn_renewed_50_cents",
+    "pixelcore:orespawn_renewed_1_dollar",
+    "pixelcore:orespawn_renewed_2_dollars",
+    "pixelcore:orespawn_renewed_5_dollars",
+    "pixelcore:orespawn_renewed_10_dollars",
+    "pixelcore:orespawn_renewed_20_dollars",
+    "pixelcore:orespawn_renewed_25_dollars",
+    "pixelcore:orespawn_renewed_50_dollars",
+    "pixelcore:orespawn_renewed_100_dollars",
+    "pixelcore:orespawn_renewed_500_dollars",
+    "pixelcore:orespawn_renewed_1000_dollars"
+  ]
+}

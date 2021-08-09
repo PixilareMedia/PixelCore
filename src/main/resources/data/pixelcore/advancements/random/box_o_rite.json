@@ -1,0 +1,36 @@
+{
+	"parent": "pixelcore:random/box_o_gems",
+    "display": {
+        "title": {
+            "translate": "advancements.pixelcore.random.box_o_rite.title"
+        },
+        "description": {
+            "translate": "advancements.pixelcore.random.box_o_rite.description"
+        },
+        "icon": {
+            "item": "minecraft:netherite_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "netherite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:shulker_box",
+                        "nbt": "{BlockEntityTag: {Items: [{Slot: 0b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 1b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 2b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 3b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 4b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 5b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 6b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 7b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 8b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 9b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 10b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 11b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 12b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 13b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 14b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 15b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 16b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 17b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 18b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 19b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 20b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 21b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 22b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 23b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 24b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 25b, id: \"minecraft:netherite_block\", Count: 64b}, {Slot: 26b, id: \"minecraft:netherite_block\", Count: 64b}]}}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "netherite"
+        ]
+    ]
+}

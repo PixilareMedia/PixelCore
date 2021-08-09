@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "group": "new_minecraft_stuff_money",
+    "ingredients": [
+        {
+            "item": "pixelcore:new_minecraft_stuff_5_dollars"
+        }
+    ],
+    "result": {
+        "item": "pixelcore:new_minecraft_stuff_1_dollar",
+        "count": 5
+    }
+}

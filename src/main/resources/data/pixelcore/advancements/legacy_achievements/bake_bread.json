@@ -1,0 +1,37 @@
+{
+	"parent": "minecraft:husbandry/root",
+	"display": {
+        "title": {
+            "translate": "advancements.pixelcore.legacy_achievements.bake_bread.title"
+        },
+        "description": {
+            "translate": "advancements.pixelcore.legacy_achievements.bake_bread.description"
+        },
+        "icon": {
+            "item": "minecraft:bread"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bakebread": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                  {
+                    "items": [
+                      "minecraft:bread"
+                    ]
+                  }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bakebread"
+        ]
+    ]
+}
