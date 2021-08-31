@@ -1,0 +1,8 @@
+{
+  "type":"pixelcore:currency_conversion",
+  "ingredient": {
+    "item":"pixelcore:danger_danger_5_cents"
+  },
+  "result":"pixelcore:pixel_5_cents",
+  "count":1
+}

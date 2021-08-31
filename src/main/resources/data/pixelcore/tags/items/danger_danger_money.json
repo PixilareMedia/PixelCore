@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values":
+  [
+    "pixelcore:danger_danger_1_cent",
+    "pixelcore:danger_danger_5_cents",
+    "pixelcore:danger_danger_10_cents",
+    "pixelcore:danger_danger_25_cents",
+    "pixelcore:danger_danger_50_cents",
+    "pixelcore:danger_danger_1_dollar",
+    "pixelcore:danger_danger_2_dollars",
+    "pixelcore:danger_danger_5_dollars",
+    "pixelcore:danger_danger_10_dollars",
+    "pixelcore:danger_danger_20_dollars",
+    "pixelcore:danger_danger_25_dollars",
+    "pixelcore:danger_danger_50_dollars",
+    "pixelcore:danger_danger_100_dollars",
+    "pixelcore:danger_danger_500_dollars",
+    "pixelcore:danger_danger_1000_dollars"
+  ]
+}

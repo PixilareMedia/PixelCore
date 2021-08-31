@@ -13,7 +13,7 @@ public class EnchantmentTab
     {
         Arrays.stream(CreativeModeTab.TABS).forEach(CreativeModeTab::setEnchantmentCategories);
 
-        Ref.ENCHANTMENT_TAB = new CreativeModeTab(CreativeModeTab.TABS.length, "enchantment_tab")
+        Ref.ENCHANTMENT_TAB = new CreativeModeTab(CreativeModeTab.TABS.length, "pixelcore.enchantment_tab")
         {
             public ItemStack makeIcon()
             {

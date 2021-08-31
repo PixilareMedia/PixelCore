@@ -10,12 +10,12 @@ import java.io.File;
 public class Config
 {
     public static final ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
-    public static final ForgeConfigSpec server;
+    public static final ForgeConfigSpec common;
 
     static
     {
         ConfigOptions.init(builder);
-        server = builder.build();
+        common = builder.build();
     }
 
     public static void loadConfig(ForgeConfigSpec config, String path)

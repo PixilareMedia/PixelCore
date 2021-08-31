@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "pixelcore:new_minecraft_stuff_money"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pixelcore:money/conversion/new_minecraft_stuff/from_thrive_craft/new_minecraft_stuff_10_cents"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_item",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pixelcore:money/conversion/new_minecraft_stuff/from_thrive_craft/new_minecraft_stuff_10_cents"
+        ]
+    }
+}

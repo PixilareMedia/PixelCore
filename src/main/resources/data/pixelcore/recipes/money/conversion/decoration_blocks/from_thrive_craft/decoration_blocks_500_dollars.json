@@ -1,0 +1,8 @@
+{
+  "type":"pixelcore:currency_conversion",
+  "ingredient": {
+    "item":"pixelcore:thrive_craft_500_dollars"
+  },
+  "result":"pixelcore:decoration_blocks_500_dollars",
+  "count":1
+}

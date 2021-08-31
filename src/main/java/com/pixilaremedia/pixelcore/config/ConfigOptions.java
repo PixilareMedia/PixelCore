@@ -9,15 +9,14 @@ public class ConfigOptions
     public static BooleanValue enableThriveCraftMoney;
     public static BooleanValue enableDecorationBlocksMoney;
     public static BooleanValue enableNewMinecraftStufflMoney;
-    public static BooleanValue enableOreSpawnRenewedMoney;
+    public static BooleanValue enableDangerDangerMoney;
 
     public static BooleanValue enableSpawnerCrafting;
     public static BooleanValue enableSpawnEggCrafting;
+    public static BooleanValue enableMusicDiscs;
 
     public static BooleanValue enableEnchantmentTab;
     public static BooleanValue enableSpawnEggTab;
-    /*public static BooleanValue enableUnobtainableTab;
-    public static BooleanValue enableMoneyTab;*/
 
     public static BooleanValue enableMadScientistPlainsHouses;
     public static BooleanValue enableMadScientistTaigaHouses;
@@ -39,9 +38,9 @@ public class ConfigOptions
         enableNewMinecraftStufflMoney = builder
                 .comment("Enable/Disable the New Minecraft Stuff Money.")
                 .define("Money.enableNewMinecraftStufflMoney", true);
-        enableOreSpawnRenewedMoney = builder
-                .comment("Enable/Disable the OreSpawn Renewed Money.")
-                .define("Money.enableOreSpawnRenewedMoney", true);
+        enableDangerDangerMoney = builder
+                .comment("Enable/Disable the Danger Danger Money.")
+                .define("Money.enableDangerDangerMoney", true);
 
         enableSpawnerCrafting = builder
                 .comment("Enable/Disable the Spawner Crafting.")
@@ -50,18 +49,16 @@ public class ConfigOptions
                 .comment("Enable/Disable the Spawn Egg Crafting.")
                 .define("Crafting.enableSpawnEggCrafting", true);
 
+        enableMusicDiscs = builder
+                .comment("Enable/Disable the Music Discs.")
+                .define("Music Discs.enableMusicDiscs", true);
+
         enableEnchantmentTab = builder
                 .comment("Enable/Disable the Enchantment Creative Tab.")
                 .define("Creative Tabs.enableEnchantmentTab", true);
         enableSpawnEggTab = builder
-                .comment("Enable/Disable the Spawn Eggs Creative Tab. (If you disable this I highly recommend that you also disable the Spawner & Spawn Egg Crafting as well.)")
+                .comment("Enable/Disable the Spawn Eggs Creative Tab.")
                 .define("Creative Tabs.enableSpawnEggTab", true);
-        /*enableUnobtainableTab = builder
-                .comment("Enable/Disable the Unobtainable Creative Tab.")
-                .define("Creative Tabs.enableUnobtainableTab", true);
-        enableMoneyTab = builder
-                .comment("Enable/Disable the Money Creative Tab. (If you disable this I highly recommend that you also disabled ALL the different types of money.)")
-                .define("Creative Tabs.enableMoneyTab", true);*/
 
         enableMadScientistPlainsHouses = builder
                 .comment("Enable/Disable the generation of the Mad Scientist building in Plains Villages.")

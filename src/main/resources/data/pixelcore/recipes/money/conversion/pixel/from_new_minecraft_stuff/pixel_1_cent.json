@@ -1,0 +1,8 @@
+{
+  "type":"pixelcore:currency_conversion",
+  "ingredient": {
+    "item":"pixelcore:new_minecraft_stuff_1_cent"
+  },
+  "result":"pixelcore:pixel_1_cent",
+  "count":1
+}

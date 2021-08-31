@@ -1,0 +1,8 @@
+{
+  "type":"pixelcore:etching",
+  "ingredient": {
+    "item":"pixelcore:blank_music_disc"
+  },
+  "result":"pixelcore:music_disc_night_before_dawn",
+  "count":1
+}

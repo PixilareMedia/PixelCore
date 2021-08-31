@@ -1,0 +1,138 @@
+{
+  "music_disc.aint_no_crying": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixelcore:records/aint_no_crying",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.syndicate": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixelcore:records/syndicate",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.welcome_home": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixelcore:records/welcome_home",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.blue": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixelcore:records/blue",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.in_my_head": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixelcore:records/in_my_head",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.kiss_your_dreams_goodbye": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixelcore:records/kiss_your_dreams_goodbye",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.turn_back_time": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixelcore:records/turn_back_time",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.four_am": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixelcore:records/four_am",
+        "stream": true
+      }
+    ]
+  },
+
+  "music_disc.tell_your_story": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixelcore:records/tell_your_story",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.write_it_down": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixelcore:records/write_it_down",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.night_before_dawn": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixelcore:records/night_before_dawn",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.doomsday": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixelcore:records/doomsday",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.why": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixelcore:records/why",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.revived": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixelcore:records/revived",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.casino_royale": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixelcore:records/casino_royale",
+        "stream": true
+      }
+    ]
+  }
+}

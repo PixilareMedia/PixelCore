@@ -10,7 +10,7 @@ public class References
 
     public static boolean PIXEL_CORE_INSTALLED = false;
     public static boolean THRIVE_CRAFT_INSTALLED = false;
-    public static boolean ORESPAWN_RENEWED_INSTALLED = false;
+    public static boolean DANGER_DANGER_INSTALLED = false;
     public static boolean DECORATION_BLOCKS_INSTALLED = false;
     public static boolean NEW_MINECRAFT_STUFF_INSTALLED = false;
 

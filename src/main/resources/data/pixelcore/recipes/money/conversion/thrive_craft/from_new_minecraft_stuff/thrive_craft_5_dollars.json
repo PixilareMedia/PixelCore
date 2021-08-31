@@ -1,0 +1,8 @@
+{
+  "type":"pixelcore:currency_conversion",
+  "ingredient": {
+    "item":"pixelcore:new_minecraft_stuff_5_dollars"
+  },
+  "result":"pixelcore:thrive_craft_5_dollars",
+  "count":1
+}

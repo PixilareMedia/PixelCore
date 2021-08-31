@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " G ",
+    "SWS"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:woods"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "pixelcore:currency_conversion_table"
+  }
+}

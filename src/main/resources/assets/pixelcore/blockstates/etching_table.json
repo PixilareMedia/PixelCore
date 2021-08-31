@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "pixelcore:block/etching_table" },
+    "facing=south": { "model": "pixelcore:block/etching_table", "y": 180 },
+    "facing=west": { "model": "pixelcore:block/etching_table", "y": 270 },
+    "facing=east": { "model": "pixelcore:block/etching_table", "y": 90 }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type":"pixelcore:etching",
+  "ingredient": {
+    "item":"pixelcore:blank_music_disc"
+  },
+  "result":"pixelcore:music_disc_turn_back_time",
+  "count":1
+}

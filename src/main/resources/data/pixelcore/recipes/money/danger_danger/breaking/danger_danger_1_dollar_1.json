@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "group": "danger_danger_money",
+    "ingredients": [
+        {
+            "item": "pixelcore:danger_danger_2_dollars"
+        }
+    ],
+    "result": {
+        "item": "pixelcore:danger_danger_1_dollar",
+        "count": 1
+    }
+}

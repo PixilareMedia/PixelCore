@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " O ",
+    "OWO",
+    " O "
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "O": {
+      "item": "pixelcore:obsidian_plates"
+    }
+  },
+  "result": {
+    "item": "pixelcore:blank_music_disc"
+  }
+}

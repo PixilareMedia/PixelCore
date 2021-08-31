@@ -11,9 +11,9 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0.0-MC-1.17.1'
-group = 'com.pixilaremedia.pixelcore'
-archivesBaseName = 'pixelcore'
+version = "${mc_version}-${mod_version}"
+group = "com.pixilaremedia.${mod_id}"
+archivesBaseName = "${mod_id}"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(16)
 
@@ -63,25 +63,38 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    // If you have mod jar dependencies in ./libs, you can declare them as a repository like so:
-    // flatDir {
-    //     dir 'libs'
-    // }
+    flatDir {
+        dir 'libs\\'
+    }
+    maven { // JEI
+        url 'https://dvs1.progwml6.com/files/maven'
+    }
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.17.1-37.0.27'
+    minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
+
+    runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}")
+    compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api")
+}
+
+if (System.getProperty("idea.sync.active") == "true") {
+    afterEvaluate {
+        tasks.withType(JavaCompile).all {
+            it.options.annotationProcessorPath = files()
+        }
+    }
 }
 
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "pixelcore",
-                "Specification-Vendor"    : "Pixilare Media",
-                "Specification-Version"   : "1", // We are version 1 of ourselves
-                "Implementation-Title"    : project.name,
-                "Implementation-Version"  : project.jar.archiveVersion,
-                "Implementation-Vendor"   : "Pixilare Media",
+                "Specification-Title"     : "${mod_name}",
+                "Specification-Vendor"    : 'Pixilare Media',
+                "Specification-Version"   : "${mc_version}",
+                "Implementation-Title"    : "${mod_id}",
+                "Implementation-Version"  : "${mod_version}",
+                "Implementation-Vendor"   : 'Pixilare Media',
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

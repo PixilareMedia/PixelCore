@@ -12,6 +12,6 @@ public class MoneyTab extends CreativeModeTab
 
     @Override
     public ItemStack makeIcon() {
-        return new ItemStack(ItemInit.PIXEL_MONEY_20_DOLLARS);
+        return new ItemStack(ItemInit.PIXEL_MONEY_20_DOLLARS.get());
     }
 }

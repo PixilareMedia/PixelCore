@@ -1,0 +1,8 @@
+{
+  "type":"pixelcore:currency_conversion",
+  "ingredient": {
+    "item":"pixelcore:decoration_blocks_1_dollar"
+  },
+  "result":"pixelcore:pixel_1_dollar",
+  "count":1
+}

@@ -1,0 +1,24 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " DI",
+    "SWS"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:woods"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "pixelcore:etching_table"
+  }
+}

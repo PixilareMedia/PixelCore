@@ -1,18 +1,21 @@
 package com.pixilaremedia.pixelcore.tabs;
 
+import com.pixilaremedia.pixelcore.Ref;
+import com.pixilaremedia.pixelcore.init.ItemInit;
 import com.pixilaremedia.pixelcore.util.mixin.ItemAccessor;
 import net.minecraft.core.NonNullList;
 import net.minecraft.world.item.*;
+import net.minecraft.world.item.enchantment.EnchantmentCategory;
 import net.minecraftforge.registries.ForgeRegistries;
+
+import java.util.Arrays;
 
 public class SpawnEggTab extends CreativeModeTab
 {
     //The Code for when Mixins Become Available to move the spawn eggs to a new tab
-    /*public static CreativeModeTab SPAWN_EGG_TAB;
-
-    public static void spawnEggTab()
+    /*public static void spawnEggTab()
     {
-        SPAWN_EGG_TAB = new CreativeModeTab("spawn_egg_tab") {
+        SPAWN_EGG_TAB = new CreativeModeTab("pixelcore.spawn_egg_tab") {
             public ItemStack makeIcon() {
                 return new ItemStack(Items.CREEPER_SPAWN_EGG);
             }
@@ -44,6 +47,12 @@ public class SpawnEggTab extends CreativeModeTab
     @Override
     public void fillItemList(NonNullList<ItemStack> items) {
         super.fillItemList(items);
+        items.add(new ItemStack(ItemInit.IRON_GOLEM_SPAWN_EGG.get()));
+        items.add(new ItemStack(ItemInit.SNOW_GOLEM_SPAWN_EGG.get()));
+        items.add(new ItemStack(ItemInit.GIANT_SPAWN_EGG.get()));
+        items.add(new ItemStack(ItemInit.ILLUSIONER_SPAWN_EGG.get()));
+        items.add(new ItemStack(ItemInit.WITHER_SPAWN_EGG.get()));
+        items.add(new ItemStack(ItemInit.ENDER_DRAGON_SPAWN_EGG.get()));
         items.add(new ItemStack(Items.AXOLOTL_SPAWN_EGG));
         items.add(new ItemStack(Items.BAT_SPAWN_EGG));
         items.add(new ItemStack(Items.BEE_SPAWN_EGG));
