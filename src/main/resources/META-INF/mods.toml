@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[37,)"
-license="Pixilare - Don't Be A Jerk (Learn, Don't Steal)"
+license="Don't Be A Jerk"
 issueTrackerURL="https://github.com/PixilareMedia/PixelCore/issues"
 
 [[mods]]
@@ -13,9 +13,7 @@ logoFile="logo.png"
 credits="Herobrain_gamer for coding"
 authors="Pixilare Media, Herobrain_gamer"
 description='''
-This mod contains some common code between all of our mods.
-It also contains some random features that did not fit into any of the other mods.
-'''
+This mod contains some common code between all of our mods. It also contains some random features that did not fit into any of the other mods.'''
 
 [[dependencies.pixelcore]]
     modId="forge"
@@ -33,24 +31,24 @@ It also contains some random features that did not fit into any of the other mod
 [[dependencies.pixelcore]]
     modId="thrivecraft"
     mandatory=false
-    versionRange="[1.0,)"
+    versionRange="[0.0.1,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.pixelcore]]
     modId="decorationblocks"
     mandatory=false
-    versionRange="[1.0,)"
+    versionRange="[0.0.1,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.pixelcore]]
     modId="newminecraftstuff"
     mandatory=false
-    versionRange="[1.0,)"
+    versionRange="[0.0.1,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.pixelcore]]
     modId="dangerdanger"
     mandatory=false
-    versionRange="[1.0,)"
+    versionRange="[0.0.1,)"
     ordering="NONE"
     side="BOTH"

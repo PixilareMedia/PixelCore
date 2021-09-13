@@ -6,7 +6,7 @@ Along with some random things that don't fit into our other mods.
 
 ---
 
-#Pixilare "Don't Be a Jerk" License v1
+# Pixilare "Don't Be a Jerk" License v1
 
 Based off of the **CoFH "Don't Be a Jerk" License v2**
 *Why because we like this license and agree with what it allows the community to do.*

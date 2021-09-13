@@ -1,5 +1,6 @@
 {
   "required": true,
+  "minVersion": "0.8.4",
   "package": "com.pixilaremedia.pixelcore.util.mixin",
   "compatibilityLevel": "JAVA_16",
   "refmap": "pixelcore.refmap.json",

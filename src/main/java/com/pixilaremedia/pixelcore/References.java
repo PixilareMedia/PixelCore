@@ -16,7 +16,6 @@ public class References
 
     public static boolean modsList(String modid)
     {
-        boolean modList = ModList.get().isLoaded(modid);
-        return modList;
+        return ModList.get().isLoaded(modid);
     }
 }

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "pixelcore:currency_conversion_table"
+    "pixelcore:currency_conversion_table",
+    "pixelcore:etching_table"
   ]
 }

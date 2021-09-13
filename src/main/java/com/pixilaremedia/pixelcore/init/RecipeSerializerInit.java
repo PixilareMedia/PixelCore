@@ -20,6 +20,6 @@ public class RecipeSerializerInit
     public static void onRegisterSerializers(RegistryEvent.Register<RecipeSerializer<?>> event) {
         event.getRegistry().register(CURRENCY_CONVERSION.setRegistryName(Ref.location("currency_conversion")));
         event.getRegistry().register(ETCHING.setRegistryName(Ref.location("etching")));
-        References.LOGGER.info("Registered Recipe Serializer");
+        References.LOGGER.info(Ref.LOG_NAME + " Registered Recipe Serializer");
     }
 }
